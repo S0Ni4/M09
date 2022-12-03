@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Blank page Bootstrap 5</title>
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+
+        <!--Menu-->
+        <nav class="navbar navbar-expand-sm bg-menu">
+            <div class="container-fluid">
+                <!--Logo-->
+                <a class="navbar-brand" href="#">
+                    <img class="img-logo" src="./../Images/Captura.PNG" alt="Logo DGT">
+                </a>
+
+                <!-- Links -->
+                <div class="container-fluid">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link text-body" href="#">Nuestros Servicios</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-body" href="#">Muévete con seguridad</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-body" href="#">Estado del tráfico</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-body" href="#">Conoce a la DGT</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-body" href="#">Comunicación</a>
+                      </li>
+                    </ul>
+                </div>
+                
+                <!--Input Search--> <!--https://frontendshape.com/post/bootstrap-5-search-example-->
+                <div class="d-flex flex-column gap-4 me-4 container-fluid w-25">
+                    <form class="d-flex">
+                        <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn bg-magnifying" type="submit">
+                            <i class="fa-solid fa-magnifying-glass">
+                                <img class="img-magnifying " src="./../Images/lupa.png" alt="magnifying">
+                            </i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!--Section 1-->
+        <div class="container-fluid">
+            <div class="row bg-logo-sede">
+                <div class="col-3"></div>
+                <div class="col-2">
+                    <img class="mt-4" src="./../Images/logo-sede.PNG" alt="">
+                </div>
+                <div class="col-5">
+                    <h3 class="mt-4" style="font-weight: bold;">GESTIONA TUS TRÁMITES EN LA SEDE ELECTRÓNICA</h3>
+                    <p class="mt-4">¿Quieres pedir una cita previa para hacer tus trámites? ¿Necesitas pagar una multa? o ¿Quieres pagar tus tasas de tráfico?</p>
+                    <p>Accede a la sede Electrónica y realiza los trámites de forma sencilla, desde el salón de tu casa.</p>
+                    <button type="button" class="btn bg-button mt-3 mb-4" style="font-weight: bold; color:white;">Accede a la Sede Electrónica</button>
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+
+        <!--Section 2-->
+        <div class="container-fluid bg-trafico">
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8 mt-4 mb-3"><h5 style="font-weight: bold; color: #0057a6;">INFORMACIÓN DE TRÁFICO</h5></div>
+                <div class="col-2"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-2">
+                    <div class="card shadow mb-5 bg-body rounded" style="width: 18rem;">
+                        <img src="./../Images/s2-image1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-title" style="font-weight: bold;">Consulta el estado del tráfico</p>
+                          <p class="card-text">Información del estado actual del tráfico así como las últimas incidencias de ci...</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-2">
+                    <div class="card shadow mb-5 bg-body rounded" style="width: 18rem;">
+                        <img src="./../Images/s2-image2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-title" style="font-weight: bold;">Recomendaciones de tráfico</p>
+                          <p class="card-text">Recomendaciones para los próximos dias,consejos estacionales,puntos conflictivos...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-2">
+                    <div class="card shadow mb-5 bg-body rounded" style="width: 18rem;">
+                        <img src="./../Images/s2-image3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-title" style="font-weight: bold;">Restricciones de la circulación</p>
+                          <p class="card-text">Consulta las restricciones temporales a la circulación de determinados vehículos...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-2">
+                    <div class="card shadow mb-5 bg-body rounded" style="width: 18rem;">
+                        <img src="./../Images/s2-image4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-title" style="font-weight: bold;">Campañas de vigilancia</p>
+                          <p class="card-text">Información sobre campañas de concienciazión, vigilancia y control realizadas a ...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+
+        <!--Section 3-->
+        <div class="container-fluid bg-interesante">
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8 mt-5 mb-3"><h5 style="font-weight: bold; font-size: 20px; color:white;">TE PUEDE INTERESAR</h5></div>
+                <div class="col-2"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-2 mb-5"></div>
+
+                <div class="col-2 mb-5">
+                    <div class="card text-center card-interesante">
+                        <div class="card-body">
+                          <h5 class="card-title" style="font-weight: bold; font-size: 18px;">DGT y el BRÉXIT</h5>
+                          <p class="card-text" style="font-size: 14px; color: #0057a6">La Unión Europea ha negociado con reino unido un Acuerdo de Retirada que habilita un período</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-2 mb-5">
+                    <div class="card text-center card-interesante">
+                        <div class="card-body">
+                          <h5 class="card-title" style="font-weight: bold; font-size: 18px;">DISTINTIVO AMBIENTAL</h5>
+                          <p class="card-text" style="font-size: 14px; color: #0057a6">El distintivo ambiental es una manera de clasificar los vehículos en función de su eficiencia</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-2 mb-5">
+                    <div class="card text-center card-interesante">
+                        <div class="card-body">
+                          <h5 class="card-title" style="font-weight: bold; font-size: 18px;">LÍMITES DE VELOCIDAD</h5>
+                          <p class="card-text" style="font-size: 14px; color: #0057a6">Los tres objetivos fundamentales son reducir la siniestralidad,disminuir los límites màximos de</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-2 mb-5">
+                    <div class="card text-center card-interesante">
+                        <div class="card-body">
+                          <h5 class="card-title" style="font-weight: bold; font-size: 18px;">CIRCULAR CON PATINETE</h5>
+                          <p class="card-text" style="font-size: 14px; color: #0057a6;">Antes de circular es importante conocer las normas que tiene que cumplir los usuarios de los</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-2 mb-5"></div>
+            </div>
+
+        </div>
+
+
+        <!--Footer-->
+
+    </body>
+</html>
