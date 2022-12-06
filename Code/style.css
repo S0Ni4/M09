@@ -1,31 +1,122 @@
+/* ---- General ---- */
+.text-bold{
+    font-weight: bold;
+}
+
+
+/* ---- NavBar ---- */
+.bg-menu{
+    background-color: #fefefe;
+}
+
 .img-logo{
-    width: 300px;
+    width: 250px;
 }
 
 .img-magnifying{
     width: 25px;
 }
 
-.bg-menu{
-    background-color: #ffffff;
+.bg-magnifying{
+    background-color: #0057a6;
 }
 
-.bg-logo-sede{
+.text-menu{
+    font-size: 16px;
+    color: #000000;
+}
+
+
+/* ---- Section 1 ---- */
+.bg-sede{
     background-color: #ebebeb;
 }
 
-.bg-interesante{
+.btn-sede{
+    font-size: 16px;
+    background-color: #0057a6;
+    color: #fefefe;
+}
+
+.title-sede{
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.text-sede{
+    font-size: 16px;
+    color: #000000;
+}
+
+
+/* ---- Section 2 ---- */
+
+.bg-traffic{
+    background-color: #fefefe;
+}
+
+.title-traffic{
+    font-size: 20px;
+    color: #0057a6;
+    font-weight: bold;
+}
+
+.card-width{
+    width: 18rem;
+}
+
+.traffic-cards-text{
+    font-size: 16px;
+    color: #000000;
+}
+
+
+/* ---- Section 3 ---- */
+
+.bg-interesting{
     background-color: #04337a;
 }
 
-.card-interesante{
+.card-interesting{
     background-color: #dbe2ec;
 }
 
-.bg-button{
+.title-interesting{
+    font-size: 20px;
+    color: #fefefe;
+    font-weight: bold;
+}
+
+.interesting-cards-title{
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+}
+
+.interesting-cards-text{
+    font-size: 14px;
+    color: #0057a6;
+}
+
+
+/* ---- Footer ---- */
+.bg-contact{
     background-color: #0057a6;
 }
 
-.bg-magnifying{
-    background-color: #0057a6;
+.img-gob{
+    width: 400px;
+}
+
+.title-contact{
+    font-weight: bold;
+    font-size: 20px;
+    color: #fcc707;
+}
+
+.text-contact{
+    font-weight: bold;
+    font-size: 16px;
+    color: #fefefe;
 }
