@@ -19,47 +19,94 @@
     <body>
 
         <!--Menu-->
-        <nav class="navbar navbar-expand-xl">
+        <nav class="navbar navbar-expand-xl bg-nav">
             <div class="container">
                 <!--Logo-->
-                <div class="col-2">
+                <a class="navbar-brand" href="javascript:void(0)">
+                    <img class="img-logo" src="./../Images/logo.png" alt="Logo Architecture">
+                </a>
+
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--Logo
+                <div class="col-1">
                     <a class="navbar-brand" href="javascript:void(0)">
-                        <!--Logo-->
-                        <img class="" src="./../Images/logo.png" alt="Logo DGT">
+                        <img class="img-logo mx-auto d-block mt-4 me-5" src="./../Images/logo.png" alt="Logo DGT">
                     </a>
                 </div>
-
-
+                <button class="navbar-toggler mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                -->
+                
                 <!--Menu-text-->
-                <div class="col-8 collapse navbar-collapse " id="mynavbar">
-                    <ul class="navbar-nav me-auto abs-center">
+                <div class="col-8 collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav mx-auto">
                       <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0)">Homepage</a>
+                        <a class="nav-link nav-text">Homepage</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0)">Our Projects</a>
+                        <a class="nav-link nav-text">Our Projects</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0)">Project Details</a>
+                        <a class="nav-link nav-text">Project Details</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0)">News</a>
+                        <a class="nav-link nav-text">News</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0)">Contact</a>
+                        <a class="nav-link nav-text">Contact</a>
                       </li>
                     </ul>
                 </div>
 
 
-
                 <!--Search-->
-                <div class="col-2">
-                    <button class="btn btn-dark" type="button">
-                        <img class="" src="./../Images/lupa.png" alt="magnifying">
-                    </button>
-                </div>
-              
+                <button class="btn" type="button">
+                    <img class="img-magnifying d-none d-xl-block" src="./../Images/lupa.png" alt="magnifying">
+                </button>
+                
+                
+            </div>
+        </nav> 
+
+
+
+        <nav class="navbar navbar-expand-xl bg-menu">
+            <div class="container-fluid">
+                <!--Logo-->
+              <a class="navbar-brand" href="javascript:void(0)">
+                <img class="img-logo" src="./../Images/Captura.PNG" alt="Logo DGT">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link text-menu" href="javascript:void(0)">Nuestros Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-menu" href="javascript:void(0)">Muévete con seguridad</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-menu" href="javascript:void(0)">Estado del tráfico</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-menu" href="javascript:void(0)">Conoce a la DGT</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2 d-none d-xl-block" type="text" placeholder="Search">
+                  <button class="btn btn-primary bg-magnifying d-none d-xl-block" type="button">
+                    <i class="fa-solid fa-magnifying-glass">
+                        <img class="img-magnifying " src="./../Images/lupa.png" alt="magnifying">
+                    </i>
+                  </button>
+                </form>
+              </div>
             </div>
         </nav> 
 
