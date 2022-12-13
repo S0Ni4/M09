@@ -6,7 +6,25 @@
 
 
 /* ---- NavBar ---- */
+.bg-nav{
+    background-color: #111111;
+}
 
+.img-logo{
+    width: 20px;
+    height: 36px;
+
+}
+
+.img-magnifying{
+    width: 15px;
+    height: 15px;
+}
+
+.nav-text{
+    color: white;
+    font-size: 15px;
+}
 
 
 /* ---- Section 1 ---- */
