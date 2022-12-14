@@ -13,8 +13,38 @@
     font-weight: normal;
 }
 
-/* ---- General ---- */
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url('fonts/Raleway/static/Raleway-ExtraBold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
 
+/* ---- General ---- */
+.section-mini-title{
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.section-title{
+    font-family: 'Raleway-Bold';
+    font-size: 40px;
+}
+
+
+.section-text{
+    font-family: 'Roboto';
+    font-size: 17px;
+    
+}
+
+.div-btn{
+    font-family: 'Roboto';
+    font-weight: bold;
+    width: 171px;
+    height: 67px;
+}
 
 
 /* ---- NavBar ---- */
@@ -58,11 +88,25 @@
 
 
 /* ---- Section 1 ---- */
-
+#section1{
+    
+}
 
 
 /* ---- Section 2 ---- */
+#section2{
+    background-color: #111111;
+}
 
+.section2-img-1{
+    width: 545px;
+    height: 545px;
+}
+
+.img-carousel{
+    width: 350px;
+    height: 350px;
+}
 
 
 /* ---- Section 3 ---- */
