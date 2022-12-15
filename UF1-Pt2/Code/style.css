@@ -7,6 +7,13 @@
 }
 
 @font-face {
+    font-family: 'Roboto-Bold';
+    src: url('fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
     font-family: 'Raleway';
     src: url('fonts/Raleway/static/Raleway-Regular.ttf') format('truetype');
     font-style: normal;
@@ -22,7 +29,7 @@
 
 /* ---- General ---- */
 .section-mini-title{
-    font-family: 'Roboto';
+    font-family: 'Roboto-Bold';
     font-size: 14px;
     font-weight: bolder;
 }
