@@ -1,7 +1,7 @@
 /* -- Declare Fonts --*/
 @font-face {
     font-family: 'Roboto';
-    src: url('fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+    src: url('./../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
 }
@@ -9,7 +9,7 @@
 
 @font-face {
     font-family: 'Roboto-Bold';
-    src: url('fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+    src: url('./../fonts/Roboto/Roboto-Bold.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
 }
@@ -17,7 +17,7 @@
 
 @font-face {
     font-family: 'Raleway';
-    src: url('fonts/Raleway/static/Raleway-Regular.ttf') format('truetype');
+    src: url('./../fonts/Raleway/static/Raleway-Regular.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
 }
@@ -25,14 +25,14 @@
 
 @font-face {
     font-family: 'Raleway-Bold';
-    src: url('fonts/Raleway/static/Raleway-ExtraBold.ttf') format('truetype');
+    src: url('./../fonts/Raleway/static/Raleway-ExtraBold.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
 }
 
 /* ---- General ---- */
 .section-mini-title{
-    font-family: 'Roboto-Bold';
+    font-family: 'Roboto';
     font-size: 14px;
     font-weight: bolder;
 }
@@ -59,6 +59,14 @@
 }
 
 
+.div-btn2{
+    font-family: 'Roboto';
+    font-weight: bold;
+    width: 202px;
+    height: 67px;
+}
+
+
 .text-yellow {
     color: #DDAF2F;
 }
@@ -69,12 +77,31 @@
 }
 
 
+.text-black {
+    color: #000000;
+}
+
+
+.text-blue {
+    color: #3333F5;
+}
+
+
 .text-view{
     color: #ffffff;
 }
 
 .text-view:hover{
     color: #000000;
+}
+
+
+.text-view2{
+    color: #000000; 
+}
+
+.text-view2:hover{
+    color: #ffffff;
 }
 
 .bg-view{
@@ -87,8 +114,18 @@
 }
 
 
+.bg-view2{
+    background-color: #DDAF2F;
+}
+
+
+.bg-view2:hover{
+    background-color: #3333F5;
+}
+
+
 .row-height{
-    height: 80px;
+    height: 90px;
 }
 
 
@@ -225,9 +262,26 @@ a{
 
 
 /* ---- Section 1 ---- */
+#section1{
+    height: 629px;
+}
 
+.bg-img{
+    background-image: url('./../..//Images/image-section1.jpg');
+    height: 629px;
+}
 
+h1{
+    color: #ffffff;
+    font-size: 70px;
+    font-family: 'Raleway-Bold';
+}
 
+.p-section1{
+    color: #ffffff;
+    font-size: 22px;
+    font-family: 'Roboto';
+}
 
 
 
@@ -261,8 +315,11 @@ a{
 }
 
 
-/* ---- Section 3 ---- */
 
+/* ---- Section 3 ---- */
+.bg-svg{
+    background-color: #F8F8F8;
+}
 
 
 /* ---- Footer ---- */
