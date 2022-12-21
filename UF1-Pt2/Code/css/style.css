@@ -67,6 +67,14 @@
 }
 
 
+.div-btn3{
+    font-family: 'Roboto';
+    font-weight: bold;
+    width: 270px;
+    height: 67px;
+}
+
+
 .text-yellow {
     color: #DDAF2F;
 }
@@ -318,6 +326,35 @@ h1{
 
 /* ---- Section 3 ---- */
 .bg-svg{
+    background-color: #F8F8F8;
+}
+
+.color-svg{
+    filter: invert(21%) sepia(99%) saturate(4583%) hue-rotate(239deg) brightness(95%) contrast(103%);
+}
+
+.color-svg:hover{
+    filter: invert(33%) sepia(92%) saturate(6455%) hue-rotate(239deg) brightness(102%) contrast(92%);
+}
+
+
+
+/* ---- Section 4 ---- */
+#section4{
+    background-color: #111111;
+}
+
+.star-color{
+    filter: invert(81%) sepia(52%) saturate(1548%) hue-rotate(325deg) brightness(107%) contrast(100%);
+}
+
+.star-color:hover{
+    filter: invert(78%) sepia(51%) saturate(881%) hue-rotate(329deg) brightness(97%) contrast(87%);
+}
+
+
+/* ---- Section 5 ---- */
+#section5{
     background-color: #F8F8F8;
 }
 
