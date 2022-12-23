@@ -120,6 +120,27 @@
     color: #ffffff;
 }
 
+
+.footer-text{
+    color:#ffffff;
+}
+
+
+.footer-text:hover{
+    color: #E7E7E7;
+}
+
+
+.footer-text2{
+    color:#A9A9A9;
+}
+
+
+.footer-text2:hover{
+    color: #3030DF; 
+}
+
+
 .text-semiwhite{
     color: #E7E7E7;
 }
@@ -429,9 +450,10 @@ ul{
 }
 
 
-
-
-
+input:focus, textarea:focus{
+    box-shadow: #FBE6AE 0px 3px 8px;
+    border: 1px solid black;
+}
 
 
 
@@ -441,7 +463,15 @@ ul{
     height: 629px;
 }
 
+.img-svg:hover{
+    height: 30px;
+    width: 30px;
+}
 
+.img-svg2:hover{
+    height: 43px;
+    width: 43px;
+}
 
 /* ---- Section 2 ---- */
 
