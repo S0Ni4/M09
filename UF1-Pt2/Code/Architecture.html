@@ -19,48 +19,46 @@
     <body>
 
         <!--Menu-->
-        <div id="header" class="back-black">
-            <nav class="navbar navbar-expand-xl bg-nav">
-                <div class="container">
-                    
-                    <!--Logo-->
-                    <a class="navbar-brand" href="#">
-                        <img class="img-logo" src="./../Images/logo.png" alt="Logo Architecture">
-                    </a>
-    
-                    <!--Hamburger-->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-    
-                    <!--Links-->
-                    <div class="col-8 collapse navbar-collapse" id="mynavbar">
-                        <ul class="navbar-nav mx-auto">
-                          <li class="nav-item top-line">
-                            <a class="nav-link nav-text-homepage" href="">Homepage</a>
-                          </li>
-                          <li class="nav-item top-line">
-                            <a class="nav-link nav-text" href="#">Our Projects</a>
-                          </li>
-                          <li class="nav-item top-line">
-                            <a class="nav-link nav-text" href="#">Project Details</a>
-                          </li>
-                          <li class="nav-item top-line">
-                            <a class="nav-link nav-text" href="#">News</a>
-                          </li>
-                          <li class="nav-item top-line">
-                            <a class="nav-link nav-text" href="#">Contact</a>
-                          </li>
-                        </ul>
-                    </div>
-    
-                    <!--Search-->
-                    <button class="btn d-none d-xl-block" type="button">
-                        <svg class="img-magnifying" width="15" height="15" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1216 832q0-185-131.5-316.5t-316.5-131.5-316.5 131.5-131.5 316.5 131.5 316.5 316.5 131.5 316.5-131.5 131.5-316.5zm512 832q0 52-38 90t-90 38q-54 0-90-38l-343-342q-179 124-399 124-143 0-273.5-55.5t-225-150-150-225-55.5-273.5 55.5-273.5 150-225 225-150 273.5-55.5 273.5 55.5 225 150 150 225 55.5 273.5q0 220-124 399l343 343q37 37 37 90z"></path></svg>
-                    </button>
-                </div>
-            </nav>
-        </div>
+          <nav class="navbar fixed-top navbar-expand-xl bg-blacky">
+              <div class="container">
+                  
+                  <!--Logo-->
+                  <a class="navbar-brand" href="#">
+                      <img class="img-logo" src="./../Images/logo.png" width="20px" height="36px" alt="Logo Architecture">
+                  </a>
+  
+                  <!--Hamburger-->
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+  
+                  <!--Links-->
+                  <div class="col-8 collapse navbar-collapse" id="mynavbar">
+                      <ul class="navbar-nav mx-auto">
+                        <li class="nav-item top-line">
+                          <a class="nav-link nav-text-homepage" href="#">Homepage</a>
+                        </li>
+                        <li class="nav-item top-line">
+                          <a class="nav-link nav-text" href="#">Our Projects</a>
+                        </li>
+                        <li class="nav-item top-line">
+                          <a class="nav-link nav-text" href="#">Project Details</a>
+                        </li>
+                        <li class="nav-item top-line">
+                          <a class="nav-link nav-text" href="#">News</a>
+                        </li>
+                        <li class="nav-item top-line">
+                          <a class="nav-link nav-text" href="#">Contact</a>
+                        </li>
+                      </ul>
+                  </div>
+  
+                  <!--Search-->
+                  <button class="btn d-none d-xl-block" type="button">
+                      <svg class="img-magnifying" width="15" height="15" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1216 832q0-185-131.5-316.5t-316.5-131.5-316.5 131.5-131.5 316.5 131.5 316.5 316.5 131.5 316.5-131.5 131.5-316.5zm512 832q0 52-38 90t-90 38q-54 0-90-38l-343-342q-179 124-399 124-143 0-273.5-55.5t-225-150-150-225-55.5-273.5 55.5-273.5 150-225 225-150 273.5-55.5 273.5 55.5 225 150 150 225 55.5 273.5q0 220-124 399l343 343q37 37 37 90z"></path></svg>
+                  </button>
+              </div>
+          </nav>
         
 
 
@@ -85,13 +83,16 @@
         
         <main>
             <!--Section 1-->
-            <section id="section1" class="bg-img-section1 position-relative">
+            <section id="banner" class="img-banner position-relative">
                 <div class="container">
-                    <div class="text-center position-absolute top-50 start-50 translate-middle section1-width">
-                        <h1 class="text-white font-s70 font-Raleway-Bold">ARCHITECTURE STUDIO</h1>
-                        <p class="text-white font-s22 font-Roboto">Helping Fortune 500 companies to redefine architecture everyday</p>
-                        <a href="#" class="d-flex justify-content-center ">
-                            <div class="div-btn2 d-flex justify-content-center mt-2 mb-5 bg-button2 text-view2 font-Roboto font-bold"><p class="mt-4">OUR PROJECTS</p></div>
+                    <div class="text-center position-absolute top-50 start-50 translate-middle w-25">
+                        <h1 class="text-white main-title">ARCHITECTURE STUDIO</h1>
+                        <p class="text-white p-banner">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="#" class="d-flex justify-content-center">
+                          <button id="b-banner" type="button" class="btn btn-warning btn-lg w-50 p-3 b-banner-fonts">
+                            OUR PROJECTS
+                          </button>
+                          <!--<div class="d-flex justify-content-center mt-3 mb-5 bg-button2 text-view2 font-Roboto font-bold w-50"><p class="mt-3">OUR PROJECTS</p></div>-->
                         </a>
                     </div>
                 </div>
@@ -108,36 +109,32 @@
 
 
 
-
-
-
-
-
-
-
             <!--Section 2-->
-            <section id="section2" class="back-black">
+            <section id="project" class="bg-blacky">
                 <div class="container">
                     <div class="row row-height"></div>
                     <div class="row">
 
-                        <div class="col-6 mt-5">
-                            <div class="ms-5 mt-5" style="width: 545px;">
-                                <h6 class="text-yellow font-Roboto font-bolder font-s14">PROJECT HIGHLIGHT</h6>
-                                <h2 class="font-Raleway-Bold font-s40 mt-4 text-white">CITY APARTMENTS RENOVATION</h2>
-                                <p class="font-Roboto font-s17 mt-4 text-white">Pork belly portland fingerstache pitchfork dreamcatcher, retro lo-fi deep v chillwave fixie kitsch bitters ugh normcore shoreditch. Pitchfork mlkshk retro, swag master cleanse pork belly 3 wolf moon kitsch deep v VHS authentic DIY.</p>
+                        <div class="col-6 mt-4">
+                            <div class="w-100 h-75 mt-5 ms-4 px-2">
+                                <h6 class="text-warning">PROJECT HIGHLIGHT</h6>
+                                <h2 class="mt-4 text-white">CITY APARTMENTS RENOVATION</h2>
+                                <p class="p-project mt-4 text-white">Pork belly portland fingerstache pitchfork dreamcatcher, retro lo-fi deep v chillwave fixie kitsch bitters ugh normcore shoreditch. Pitchfork mlkshk retro, swag master cleanse pork belly 3 wolf moon kitsch deep v VHS authentic DIY.</p>
                                 <a href="#">
-                                    <div class="div-btn d-flex justify-content-center mt-5 mb-5 bg-button text-view font-Roboto font-bold"><p class="mt-4">VIEW MORE</p></div>
+                                  <button type="button" class="btn btn-primary btn-lg mt-3 px-5 py-4 b-project-fonts b-project">
+                                    VIEW MORE
+                                  </button>
+                                  <!--<div class="div-btn d-flex justify-content-center mt-5 mb-5 bg-button text-view font-Roboto font-bold"><p class="mt-4">VIEW MORE</p></div>-->
                                 </a>
                             </div>
                         </div>
 
                         <div class="col-6">
-                            <img class="mx-auto d-block" src="./../Images/image1-section2.png" width="545px" height="545px" alt="">
+                            <img class="mx-auto d-block"  src="./../Images/image1-section2.png" alt="Projects">
                         </div>
                     </div>
 
-                    <!--Carousel-->
+                    <!--Carousel--> <!--Me gustaria poner un carousel de tres-->
                     <div class="row">
                         <div class="col-12 mt-5">
                           <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -149,19 +146,19 @@
                           <div class="carousel-inner">
                             <!--Item 1-->
                             <div class="carousel-item active">
-                              <img src="./../Images/image2-section2.png" class="img-carousel img-fluid mx-auto d-block" alt="Carousel1">
+                              <img src="./../Images/image2-section2.png" width="350px" height="350px" class="img-fluid mx-auto d-block" alt="Carousel1">
                             </div>
           
           
                             <!--Item 2-->
                             <div class="carousel-item">
-                              <img src="./../Images/image3-section2.png" class="img-carousel img-fluid mx-auto d-block" alt="Carousel2">
+                              <img src="./../Images/image3-section2.png" width="350px" height="350px" class="img-fluid mx-auto d-block" alt="Carousel2">
                             </div>
           
           
                             <!--Item 3-->
                             <div class="carousel-item">
-                              <img src="./../Images/image4-section2.png" class="img-carousel img-fluid mx-auto d-block" alt="Carousel3">
+                              <img src="./../Images/image4-section2.png" width="350px" height="350px" class="img-fluid mx-auto d-block" alt="Carousel3">
                             </div>
                           </div>
                           
@@ -193,46 +190,62 @@
 
 
             <!--Section 3-->
-            <section id="section3" class="bg-white">
+            <section id="clients" class="bg-white">
               <div class="container">
 
                 <div class="row row-height"></div>
                 <div class="row">
-                  <div class="col-12 text-center font-Roboto font-bolder font-s14 text-blue">
+                  <div class="col-12 text-center clients-mini-title">
                     PARTNERS
                   </div>
                 </div>
 
                 <div class="row">
-                  <div class="col-12 text-center mt-3 font-Raleway-Bold font-bolder font-s40 text-black">
+                  <div class="col-12 text-center mt-3 clients-title">
                     SELECTED CLIENTS
                   </div>
               
                 </div>
 
                 <div class="row mt-5 d-flex justify-content-center">
-                  <div class="col-3 bg-grey position-relative" style="width: 272px;height: 175px;">
-                    <a href="#">
-                      <img class="position-absolute top-50 start-50 translate-middle color-svg-blue" src="./../Images/usps.svg" width="90px" height="80px" alt="">
-                    </a>
+                  <div class="col-3">
+
+                    <div class="bg-light p-5">
+                      <a href="#">
+                        <img class="color-svg-blue mx-auto d-block" src="./../Images/usps.svg" width="90px" height="80px" alt="usps">
+                      </a>
+                    </div>
+                    
                   </div>
 
-                  <div class="col-3 bg-grey position-relative ms-4" style="width: 272px;height: 175px;">
-                    <a href="#">
-                      <img class="position-absolute top-50 start-50 translate-middle color-svg-blue" src="./../Images/staylinked.svg" width="69px" height="80px" alt="">
-                    </a>
+                  <div class="col-3"> 
+
+                    <div class="bg-light p-5">
+                      <a href="#">
+                        <img class="color-svg-blue mx-auto d-block" src="./../Images/staylinked.svg" width="69px" height="80px" alt="staylinked">
+                      </a>
+                    </div>
+                    
                   </div>
 
-                  <div class="col-3 bg-grey position-relative ms-4" style="width: 272px;height: 175px;">
-                    <a href="#">
-                      <img class="position-absolute top-50 start-50 translate-middle color-svg-blue" src="./../Images/schlix.svg" width="70px" height="80px" alt="">
-                    </a>
+                  <div class="col-3">
+
+                    <div class="bg-light p-5">
+                      <a href="#">
+                        <img class="color-svg-blue mx-auto d-block" src="./../Images/schlix.svg" width="70px" height="80px" alt="schlix">
+                      </a>
+                    </div>
+                    
                   </div>
 
-                  <div class="col-3 bg-grey position-relative ms-4" style="width: 272px;height: 175px;">
-                    <a href="#">
-                      <img class="position-absolute top-50 start-50 translate-middle color-svg-blue" src="./../Images/pied-piper-pp.svg" width="70px" height="80px" alt="">
-                    </a>
+                  <div class="col-3">
+
+                    <div class="bg-light p-5">
+                      <a href="#">
+                        <img class="color-svg-blue mx-auto d-block" src="./../Images/pied-piper-pp.svg" width="70px" height="80px" alt="pied-piper-pp">
+                      </a>
+                    </div>
+                    
                   </div>
                 </div>
 
@@ -262,24 +275,27 @@
 
 
             <!--Section 4-->
-            <section id="section4" class="back-black">
+            <section id="planning" class="bg-blacky">
               <div class="container">
                 <div class="row row-height"></div>
                 <div class="row">
                     <!--Part 1-->
                     <div class="col-6 mt-5">
-                        <div class="ms-5 mt-3" style="width: 545px;">
-                            <h6 class="font-Roboto font-bolder font-s14 text-yellow">PLANNING</h6>
-                            <h2 class="font-Raleway-Bold font-s40 mt-4 text-white">MINO OFFICE BUILDING</h2>
-                            <p class="font-Roboto font-s17 mt-4 text-white">Pork belly portland fingerstache pitchfork dreamcatcher, retro lo-fi deep v chillwave fixie kitsch bitters ugh normcore shoreditch. Pitchfork mlkshk retro, swag master cleanse pork belly 3 wolf moon kitsch deep v VHS authentic DIY. Artisan truffaut salvia, vaporware flannel prism street art vegan roof party hashtag 90’s. </p>
+                        <div class="ms-5 mt-3">
+                            <h6 class="text-warning">PLANNING</h6>
+                            <h2 class="mt-4 text-white">MINO OFFICE BUILDING</h2>
+                            <p class="p-project mt-4 text-white">Pork belly portland fingerstache pitchfork dreamcatcher, retro lo-fi deep v chillwave fixie kitsch bitters ugh normcore shoreditch. Pitchfork mlkshk retro, swag master cleanse pork belly 3 wolf moon kitsch deep v VHS authentic DIY. Artisan truffaut salvia, vaporware flannel prism street art vegan roof party hashtag 90’s. </p>
                             <a href="#">
-                                <div class="div-btn3 d-flex justify-content-center mt-5 mb-5 bg-button text-view font-Roboto font-bold"><p class="mt-4">VIEW PROJECTS DETAILS</p></div>
+                              <button type="button" class="btn btn-primary btn-lg mt-4 px-4 py-4 b-project-fonts b-project">
+                                VIEW PROJECTS DETAILS
+                              </button>
+                              <!--<div class="div-btn3 d-flex justify-content-center mt-5 mb-5 bg-button text-view font-Roboto font-bold"><p class="mt-4">VIEW PROJECTS DETAILS</p></div>-->
                             </a>
                         </div>
                     </div>
 
                     <div class="col-6">
-                        <img class="mx-auto d-block" src="./../Images/image1-section4.png" height="510px" width="510px" alt="">
+                        <img class="mx-auto d-block" src="./../Images/image1-section4.png" alt="Planning">
                     </div>
                 </div>
 
@@ -292,23 +308,23 @@
 
                     <div class="mt-3 d-flex justify-content-center">
                       <a href="">
-                        <img class="star-color mx-auto d-block" src="./../Images/star-solid.svg" width="20px" height="16px" alt="">
+                        <img class="star-color mx-auto d-block" src="./../Images/star-solid.svg" width="20px" height="16px" alt="Star">
                       </a>
   
                       <a href="">
-                        <img class="star-color mx-auto d-block" src="./../Images/star-solid.svg" width="20px" height="16px" alt="">
+                        <img class="star-color mx-auto d-block" src="./../Images/star-solid.svg" width="20px" height="16px" alt="Star">
                       </a>
   
                       <a href="">
-                        <img class="star-color mx-auto d-block" src="./../Images/star-solid.svg" width="20px" height="16px" alt="">
+                        <img class="star-color mx-auto d-block" src="./../Images/star-solid.svg" width="20px" height="16px" alt="Star">
                       </a>
   
                       <a href="">
-                        <img class="star-color mx-auto d-block" src="./../Images/star-solid.svg" width="20px" height="16px" alt="">
+                        <img class="star-color mx-auto d-block" src="./../Images/star-solid.svg" width="20px" height="16px" alt="Star">
                       </a>
   
                       <a href="">
-                        <img class="star-color mx-auto d-block" src="./../Images/star-solid.svg" width="20px" height="16px" alt="">
+                        <img class="star-color mx-auto d-block" src="./../Images/star-solid.svg" width="20px" height="16px" alt="Star">
                       </a>
                     </div>
                     
@@ -319,26 +335,27 @@
                 <div class="row mt-4">
                   <div class="col-2"></div>
                   <div class="col-8 text-center">
-                    <p class="font-Roboto font-s17 text-white">I am impressed with the professionalism and exectution of the project by this team. Highly efficient, easy to communicate with and definitely know their craft. Thanks for an incredible result.</p>
+                    <p class="mark-text text-white">I am impressed with the professionalism and exectution of the project by this team. Highly efficient, easy to communicate with and definitely know their craft. Thanks for an incredible result.</p>
                   </div>
                   <div class="col-2"></div>
                 </div>
 
                 <!--Image-->
                 <div class="row">
-                  <div class="col-12 mt-2">
-                    <img class="mx-auto d-block" src="./../Images/mark-riley.PNG" alt="">
+                  <div class="col-12 mt-2 text-center">
+                    <img class="mx-auto d-block mark-img" src="./../Images/mark-riley.PNG" alt="Mark Riley">
+                    <h5 class="mark-name text-white">MARK RILEY</h5>
                   </div>
                 </div>
 
 
                 <div class="row">
                   <div class="col-12 text-center">
-                    <p class="font-Roboto font-s17 text-white me-3">Client</p>
+                    <p class="mark-text text-white mt-2">Client</p>
                   </div>
                 </div>
 
-                <div class="row" style="height: 60px;"></div>
+                <div class="row row-height2"></div>
 
               </div>
             </section>
@@ -365,29 +382,32 @@
 
 
             <!--Section 5-->
-            <section id="section5" class="bg-grey">
+            <section id="construction" class="bg-light">
 
               <div class="container">
-                <div class="row row-height"></div>
+                <div class="row row-height3"></div>
 
                 <div class="row">
                     <div class="col-7 mt-5 order-2">
-                        <div class="ms-5 mt-3" style="width: 545px;">
-                            <h6 class="font-Roboto font-bolder font-s14 text-blue">PLANNING, CONSTRUCTION</h6>
-                            <h2 class="font-Raleway-Bold font-s40 mt-4 text-black">JVT COWORKING SPACE</h2>
-                            <p class="font-Roboto font-s17 mt-4 text-black">Pork belly portland fingerstache pitchfork dreamcatcher, retro lo-fi deep v chillwave fixie kitsch bitters ugh normcore shoreditch. Pitchfork mlkshk retro, swag master cleanse pork belly 3 wolf moon kitsch deep v VHS authentic DIY.</p>
+                        <div class="w-75 mt-5 ms-3">
+                            <h6 class="text-blue">PLANNING, CONSTRUCTION</h6>
+                            <h2 class="mt-4 text-body">JVT COWORKING SPACE</h2>
+                            <p class="p-project mt-4 text-body">Pork belly portland fingerstache pitchfork dreamcatcher, retro lo-fi deep v chillwave fixie kitsch bitters ugh normcore shoreditch. Pitchfork mlkshk retro, swag master cleanse pork belly 3 wolf moon kitsch deep v VHS authentic DIY.</p>
                             <a href="#">
-                                <div class="div-btn3 d-flex justify-content-center mt-5 mb-5 bg-button text-view font-Roboto font-bold"><p class="mt-4">VIEW PROJECTS DETAILS</p></div>
+                              <button type="button" class="btn btn-primary btn-lg mt-4 px-5 py-4 b-project-fonts b-project">
+                                VIEW PROJECTS DETAILS
+                              </button>
+                              <!--<div class="div-btn3 d-flex justify-content-center mt-5 mb-5 bg-button text-view font-Roboto font-bold"><p class="mt-4">VIEW PROJECTS DETAILS</p></div>-->
                             </a>
                         </div>
                     </div>
 
                     <div class="col-5 order-1">
-                        <img class="float-end" src="./../Images/image1-section5.png" height="511px" width="511px" alt="">
+                        <img class="float-end" src="./../Images/image1-section5.png" height="511px" width="511px" alt="Construction">
                     </div>
                 </div>
 
-                <div class="row" style="height: 110px;"></div>
+                <div class="row row-height3"></div>
 
             </section>
 
@@ -412,29 +432,29 @@
 
 
             <!--Section 6-->
-            <section id="section6" class="bg-white">
+            <section id="our-team" class="bg-white">
               <div class="container">
 
                 <div class="row row-height"></div>
 
                 <div class="row">
-                  <div class="col-12 text-center font-Roboto font-bolder font-s14 text-blue">
+                  <div class="col-12 text-center clients-mini-title">
                     ABOUT US
                   </div>
                 </div>
 
                 <div class="row">
-                  <div class="col-12 text-center mt-3 font-Raleway-Bold font-s40 text-black">
+                  <div class="col-12 text-center mt-3 clients-title">
                     OUR TEAM
                   </div>
                 </div>
 
                 <div class="row mt-5">
                   <div class="col-4">
-                    <div class="text-center mx-auto" style="width: 327px;">
-                      <img src="./../Images/image1-section6.png" alt="">
-                      <h3 class="text-blue font-Raleway-Bold font-s28">JOHN JACKOVSCKI</h3>
-                      <h5 class="text-black font-Roboto-Bold font-s16">PLANNER</h5>
+                    <div class="text-center mx-auto">
+                      <img src="./../Images/image1-section6.png" alt="JOHN JACKOVSCKI">
+                      <h3 class="title-name">JOHN JACKOVSCKI</h3>
+                      <h5 class="text-body subtitle-name">PLANNER</h5>
 
                       <div class="mt-3">
                         <a href="#">
@@ -454,10 +474,10 @@
                   </div>
 
                   <div class="col-4">
-                    <div class="text-center mx-auto" style="width: 327px;">
-                      <img src="./../Images/image2-section6.png" alt="">
-                      <h3 class="text-blue font-Raleway-Bold font-s28">PARKER WILLIAMS</h3>
-                      <h5 class="text-black font-Roboto-Bold font-s16">CLIENT SERVICE</h5>
+                    <div class="text-center mx-auto">
+                      <img src="./../Images/image2-section6.png" alt="PARKER WILLIAMS">
+                      <h3 class="title-name">PARKER WILLIAMS</h3>
+                      <h5 class="text-body subtitle-name">CLIENT SERVICE</h5>
                       <div class="mt-3">
                         <a href="#">
                           <img src="./../Images/facebook.svg" class="img-svg" width="27px" height="27px" alt="Facebook">
@@ -477,10 +497,10 @@
                   </div>
                   
                   <div class="col-4">
-                    <div class="text-center mx-auto" style="width: 327px;">
-                      <img src="./../Images/image3-section6.png" alt="">
-                      <h3 class="text-blue font-Raleway-Bold font-s28">JOHN JACKOVSCKI</h3>
-                      <h5 class="text-black font-Roboto-Bold font-s16">ARCHITECT</h5>
+                    <div class="text-center mx-auto">
+                      <img src="./../Images/image3-section6.png" alt="JOHN JACKOVSCKI">
+                      <h3 class="title-name">JOHN JACKOVSCKI</h3>
+                      <h5 class="text-body subtitle-name">ARCHITECT</h5>
 
                       <div class="mt-3">
                         <a href="#">
@@ -511,10 +531,11 @@
 
 
 
+            <!--Falta de aqui para abajo-->
 
 
             <!--Section 7-->
-            <section id="section7" class="back-black">
+            <section id="contact" class="bg-blacky">
               <div class="container">
                 <div class="row row-height"></div>
 
@@ -552,22 +573,22 @@
                     <form>
                       <br>
 
-                      <label for="name" class="font-Roboto font-s17 text-black">Name<span class="text-red">*</span></label><br>
-                      <input type="text" placeholder="Your name" class="mt-2 form-field font-Roboto font-s17 text-black w-100">
+                      <label for="name" class="font-Roboto font-s17 text-body">Name<span class="text-red">*</span></label><br>
+                      <input type="text" placeholder="Your name" class="mt-2 form-field font-Roboto font-s17 text-body w-100">
 
                       <br><br>
 
-                      <label for="email" class="font-Roboto font-s17 text-black">Email<span class="text-red">*</span></label><br>
-                      <input type="email" placeholder="Email address" class="mt-2 form-field font-Roboto font-s17 text-black w-100">
+                      <label for="email" class="font-Roboto font-s17 text-body">Email<span class="text-red">*</span></label><br>
+                      <input type="email" placeholder="Email address" class="mt-2 form-field font-Roboto font-s17 text-body w-100">
 
                       <br><br>
 
-                      <label for="message" class="font-Roboto font-s17 text-black">Message<span class="text-red">*</span></label><br>
-                      <textarea rows="6" placeholder="Your message" class="mt-2 form-field font-Roboto font-s17 text-black w-100"></textarea>
+                      <label for="message" class="font-Roboto font-s17 text-body">Message<span class="text-red">*</span></label><br>
+                      <textarea rows="6" placeholder="Your message" class="mt-2 form-field font-Roboto font-s17 text-body w-100"></textarea>
 
                       <br>
 
-                      <button class="mt-3 mb-5 bg-button2 text-black font-Roboto font-bold form-button">Submit</button>
+                      <button class="mt-3 mb-5 bg-button2 text-body font-Roboto font-bold form-button">Submit</button>
 
                     </form>
                   </div>
@@ -674,7 +695,7 @@
 
           - Validar formularios con Boostrap
           
-          - 5 componentes de Bootstrap (Navbar-Fixed, Buttons, Carousel, Scrollpy)
+          - 5 componentes de Bootstrap (Navbar-Fixed x, Buttons x, Carousel x, Scrollpy)
         -->
 
 
@@ -695,8 +716,6 @@
           - Hacer las diferentes vistas
 
           - Sustituir css por clases de boostrap
-
-          - Poner variables css
         -->
 
 
