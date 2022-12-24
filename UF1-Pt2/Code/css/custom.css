@@ -162,7 +162,6 @@
 }
 
 
-
 /* -- Project -- */
 
 .b-project:hover{
@@ -204,7 +203,6 @@ h6{
     font-size: 14px;
     font-family: 'Roboto';
     font-weight: bolder;
-    color: #3333F5
 }
 
 
@@ -235,12 +233,6 @@ h6{
 
 .star-color:hover{
     filter: invert(78%) sepia(51%) saturate(881%) hue-rotate(329deg) brightness(97%) contrast(87%);
-}
-
-
-.mark-text{
-    font-family: 'Roboto';
-    font-size: 17px;
 }
 
 
@@ -278,7 +270,6 @@ h6{
 .title-name{
     font-family: 'Raleway-Bold';
     font-size: 28px;
-    color: #3333F5;
 }
 
 .subtitle-name{
@@ -291,32 +282,92 @@ h6{
     width: 30px;
 }
 
+
+
+/* -- Contact us --*/
 .img-svg2:hover{
     height: 43px;
     width: 43px;
 }
 
+.text-red{
+    color: red;
+}
 
 
-/* -- Contact us --*/
+.form-field{
+    border: 1px solid #000000; 
+    border-radius: 3px; 
+    padding: 10px 10px;
+}
+
+
+.form-button{
+    border: none;
+    border-radius: 0;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+
+.form-button:hover{
+    background-color:#3333F5;
+    border: none;
+    border-radius: 0;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+
+input:focus, textarea:focus{
+    box-shadow: #FBE6AE 0px 3px 8px;
+    border: 1px solid #000000;
+}
+
+
+/* -- Footer -- */
+.bg-footer{
+    background-color: #181717;
+}
+
+.footer-title{
+    font-size: 20px;
+    font-family: 'Raleway-Bold';
+}
+
+
 .footer-text{
-    color:#ffffff;
-}
-
-
-.footer-text:hover{
-    color: #E7E7E7;
-}
-
-
-.footer-text2{
-    color:#A9A9A9;
+    font-size: 17px;
+    font-family: 'Roboto';
+    color: #ffffff;
 }
 
 
 .footer-text2:hover{
-    color: #3030DF; 
+    color: #E7E7E7;
 }
+
+
+.footer-privacy{
+    font-size: 16px;
+    font-family: 'Roboto';
+    color: #E7E7E7;
+}
+
+
+.footer-privacy:hover{
+    font-size: 16px;
+    font-family: 'Roboto';
+    color: #3030DF;
+}
+
+.row-height4{
+    height: 20px;
+}
+
+
+
+/* -- General -- */
 
 
 .text-blue {
@@ -329,26 +380,6 @@ a{
 }
 
 
-.form-field{
-    border: 1px solid #000000; 
-    border-radius: 3px; 
-    padding: 10px 10px;
-}
-
-
-.form-button{
-    width: 95px; 
-    height: 47px;
-    border: none;
-}
-
-
 ul{
     list-style:none;
-}
-
-
-input:focus, textarea:focus{
-    box-shadow: #FBE6AE 0px 3px 8px;
-    border: 1px solid #000000;
 }
