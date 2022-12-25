@@ -1,3 +1,7 @@
+html{
+    font-size: 20px;
+}
+
 /* -- Fonts --*/
 @font-face {
     font-family: 'Roboto';
@@ -29,6 +33,14 @@
     font-style: normal;
     font-weight: normal;
 }
+
+
+.container{
+    font-size: 0.5rem;
+}
+
+
+
 
 
 
@@ -64,7 +76,7 @@
 .nav-text-homepage{
     font-family: 'Roboto';
     color: #ffffff;
-    font-size: 15px;
+    font-size: 1.5em;
     font-weight:500;
 }
 
@@ -72,7 +84,7 @@
 .nav-text-homepage:hover{
     font-family: 'Roboto';
     color: #E7E7E7;
-    font-size: 15px;
+    font-size: 1.5em;
     font-weight:500;
 }
 
@@ -80,7 +92,7 @@
 .nav-text{
     font-family: 'Roboto';
     color: #ffffff;
-    font-size: 15px;
+    font-size: 1.5em;
     font-weight:500;
 }
 
@@ -88,7 +100,7 @@
 .nav-text:hover{
     font-family: 'Roboto';
     color: #DDAF2F;
-    font-size: 15px;
+    font-size: 1.5em;
     font-weight:500;
 }
 
@@ -140,12 +152,12 @@
 
 
 .main-title{
-    font-size: 70px;
+    font-size: 7em;
     font-family: 'Raleway-Bold';
 }
 
 .p-banner{
-    font-size: 22px;
+    font-size: 2.2em;
     font-family: 'Roboto';
 }
 
@@ -175,23 +187,23 @@
     font-family: 'Roboto';
     font-weight: bold;
     border-radius: 0;
-    font-size: 17px;
+    font-size: 1.7em;
 }
 
 .p-project{
     font-family: 'Roboto';
-    font-size: 17px;
+    font-size: 1.7em;
 
 }
 
 h2{
     font-family: 'Raleway-Bold';
-    font-size: 40px;
+    font-size: 4em;
 }
 
 
 h6{
-    font-size: 14px;
+    font-size: 1.4em;
     font-weight: bold;
     font-family: 'Roboto';
 }
@@ -200,14 +212,14 @@ h6{
 
 /* -- Clients -- */
 .clients-mini-title{
-    font-size: 14px;
+    font-size: 1.4em;
     font-family: 'Roboto';
     font-weight: bolder;
 }
 
 
 .clients-title{
-    font-size: 40px;
+    font-size: 4em;
     font-family: 'Raleway-Bold';
     font-weight: bolder;
     color: #000000;
@@ -239,7 +251,13 @@ h6{
 .mark-name{
     font-family: 'Roboto';
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1.6em;
+}
+
+
+.mark-text{
+    font-family: 'Roboto';
+    font-size: 1.5em;
 }
 
 
@@ -269,12 +287,12 @@ h6{
 /* -- Our Team -- */
 .title-name{
     font-family: 'Raleway-Bold';
-    font-size: 28px;
+    font-size: 2.8em;
 }
 
 .subtitle-name{
     font-family: 'Roboto-Bold';
-    font-size: 16px;
+    font-size: 1.6em;
 }
 
 .img-svg:hover{
@@ -324,6 +342,10 @@ input:focus, textarea:focus{
     border: 1px solid #000000;
 }
 
+.form-title{
+    border-bottom: 3px solid #000000;
+}
+
 
 /* -- Footer -- */
 .bg-footer{
@@ -331,32 +353,32 @@ input:focus, textarea:focus{
 }
 
 .footer-title{
-    font-size: 20px;
+    font-size: 2em;
     font-family: 'Raleway-Bold';
 }
 
 
 .footer-text{
-    font-size: 17px;
+    font-size: 1.7em;
     font-family: 'Roboto';
     color: #ffffff;
 }
 
 
 .footer-text2:hover{
-    color: #E7E7E7;
+    color: #E7E7E7 !important;
 }
 
 
 .footer-privacy{
-    font-size: 16px;
+    font-size: 1.6em;
     font-family: 'Roboto';
     color: #E7E7E7;
 }
 
 
 .footer-privacy:hover{
-    font-size: 16px;
+    font-size: 1.6em;
     font-family: 'Roboto';
     color: #3030DF;
 }
