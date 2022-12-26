@@ -143,7 +143,6 @@ html{
 
 
 /* -- Banner -- */
-
 .img-banner{
     background-image: url('./../..//Images/image-section1.jpg');
     background-repeat: no-repeat;
@@ -168,6 +167,7 @@ html{
 }
 
 .b-banner-fonts{
+    font-size: 0.85rem;
     font-family: 'Roboto';
     font-weight: bold;
     border-radius: 0;
