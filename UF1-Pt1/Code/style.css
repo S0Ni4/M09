@@ -1,0 +1,144 @@
+/* -- Declare Fonts --*/
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* ---- General ---- */
+.text-bold{
+    font-weight: bold;
+}
+
+body{
+    font-family: 'Open Sans';
+}
+
+
+/* ---- NavBar ---- */
+.bg-menu{
+    background-color: #000000;
+}
+
+.img-logo{
+    width: 250px;
+}
+
+.img-magnifying{
+    width: 25px;
+}
+
+.bg-magnifying{
+    background-color: #0057a6;
+}
+
+.text-menu{
+    font-size: 16px;
+    color: #000000;
+}
+
+
+/* ---- Section 1 ---- */
+.bg-sede{
+    background-color: #ebebeb;
+}
+
+.btn-sede{
+    font-size: 16px;
+    background-color: #0057a6;
+    color: #fefefe;
+}
+
+.title-sede{
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.text-sede{
+    font-size: 16px;
+    color: #000000;
+}
+
+
+/* ---- Section 2 ---- */
+
+.bg-traffic{
+    background-color: #fefefe;
+}
+
+.title-traffic{
+    font-size: 22px;
+    color: #0057a6;
+    font-weight: bold;
+}
+
+.card-width{
+    width: 18rem;
+}
+
+.traffic-cards-text{
+    font-size: 16px;
+    color: #000000;
+}
+
+
+/* ---- Section 3 ---- */
+
+.bg-interesting{
+    background-color: #04337a;
+}
+
+.card-interesting{
+    background-color: #dbe2ec;
+}
+
+.title-interesting{
+    font-size: 22px;
+    color: #fefefe;
+    font-weight: bold;
+}
+
+.interesting-cards-title{
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+}
+
+.interesting-cards-text{
+    font-size: 14px;
+    color: #0057a6;
+}
+
+
+/* ---- Footer ---- */
+.bg-contact{
+    background-color: #0057a6;
+}
+
+.img-gob{
+    width: 400px;
+}
+
+.title-contact{
+    font-weight: bold;
+    font-size: 20px;
+    color: #fcc707;
+}
+
+.text-contact{
+    font-weight: bold;
+    font-size: 16px;
+    color: #fefefe;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+.navbar-toggler{
+  border: 2px solid white;
+}
+.navbar-toggler:focus{
+  box-shadow: none;
+}
