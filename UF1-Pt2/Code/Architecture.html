@@ -1,0 +1,666 @@
+<!--
+    Jonatan Feliz - 25370779P
+
+    Sonia Morales - 48184203P 
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Architecture - Just another Demos Sites site</title>
+        <link rel="icon" type="image/x-icon" href="./../Images/favicon.ico">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+		    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="./css/custom.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="./js/index.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        <!-- Menu -->
+        <nav id="menu" class="navbar fixed-top navbar-expand-xl bg-blacky">
+          <div class="container py-4">
+            
+              
+              <a class="navbar-brand" href="#">
+                  <img class="img-logo" src="./../Images/logo.png" width="20px" height="36px" alt="Logo Architecture">
+              </a>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="col-8 collapse navbar-collapse" id="mynavbar">
+                  <ul class="navbar-nav mx-auto">
+                    <li class="nav-item top-line">
+                      <a class="nav-link text1 nav-text-homepage" href="#banner">Homepage</a>
+                    </li>
+                    <li class="nav-item top-line dropdown">
+                      <a class="nav-link text1 nav-text dropdown-toggle ps-4" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Projects</a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item text1" href="#project">Project</a></li>
+                        <li><a class="dropdown-item text1" href="#planning">Planning</a></li>
+                        <li><a class="dropdown-item text1" href="#construction">Construction</a></li>
+                      </ul>                  
+                    </li>
+                    <li class="nav-item top-line">
+                      <a class="nav-link text1 nav-text ps-4" href="#clients">Clients</a>
+                    </li>
+                    <li class="nav-item top-line">
+                      <a class="nav-link text1 nav-text ps-4" href="#our-team">Our Team</a>
+                    </li>
+                    <li class="nav-item top-line">
+                      <a class="nav-link text1 nav-text ps-4" href="#contact">Contact</a>
+                    </li>
+                  </ul>
+              </div>
+
+              <button class="btn d-none d-xl-block" type="button">
+                  <svg class="img-magnifying" width="15" height="15" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1216 832q0-185-131.5-316.5t-316.5-131.5-316.5 131.5-131.5 316.5 131.5 316.5 316.5 131.5 316.5-131.5 131.5-316.5zm512 832q0 52-38 90t-90 38q-54 0-90-38l-343-342q-179 124-399 124-143 0-273.5-55.5t-225-150-150-225-55.5-273.5 55.5-273.5 150-225 225-150 273.5-55.5 273.5 55.5 225 150 150 225 55.5 273.5q0 220-124 399l343 343q37 37 37 90z"></path></svg>
+              </button>
+            
+          </div>
+        </nav>
+        
+
+
+
+
+
+
+
+
+
+        <!--Body-->
+        <main>
+          <div data-bs-spy="scroll" data-bs-target="#menu" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
+            <!-- Banner -->
+            <section id="banner" class="img-banner position-relative">
+                <div class="container">
+                    <div class="text-center position-absolute top-50 start-50 translate-middle mt-5">
+                        <h1 class="text-white font-Raleway-Bold font-s7 bg-dark">ARCHITECTURE STUDIO</h1>
+                        <p class="text-white bg-dark font-s2-2 d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="https://demosites.io/architecture-gb/our-projects/" class="d-flex justify-content-center">
+                          <button id="b-banner" type="button" class="btn btn-warning btn-lg w-25 font-Roboto-Bold font-s1-7 mt-5 py-4 rounded-0">
+                            OUR PROJECTS
+                          </button>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- Project -->
+            <section id="project" class="bg-blacky">
+              <div class="container">
+                <div class="row row-height2 d-none d-xl-block"></div>
+                <div class="row">
+                  <div class="col-xl-6 col-12 mt-5">
+                      <div class="h-75 mt-5 ms-md-5">
+                        <h6 class="text-warning font-s1-4 font-Roboto-Bold">PROJECT HIGHLIGHT</h6>
+                        <h2 class="mt-5 text-white font-s4 font-Raleway-Bold">CITY APARTMENTS RENOVATION</h2>
+                        <p class="mt-5 text-white font-s1-7">Donec condimentum lacus nibh, nec tincidunt libero convallis id. Integer in purus sed neque aliquam vehicula eget vel tortor. Quisque ullamcorper eget erat dignissim venenatis. Donec sed pretium urna. Praesent nulla libero, mattis sed leo suscipit, ornare vulputate dolor. </p>
+                        <a href="https://demosites.io/architecture-gb/project-details/">
+                          <button type="button" class="btn btn-primary btn-lg mt-5 px-5 py-4 btn1 font-s1-7 font-Roboto-Bold rounded-0">
+                            <div class="px-3 py-3">VIEW MORE</div>
+                          </button>
+                        </a>
+                      </div>
+                  </div>
+                  <div class="col-xl-6 col-12 mt-5 d-none d-md-block">
+                      <img class="mx-auto d-block img-fluid cssanimation fadeInBottom"  src="./../Images/image1-section2.png" alt="Projects">
+                  </div>
+                </div>
+              </div>
+
+              <!-- Carousel --> 
+              <div class="container my-5">
+                <div class="row">
+                  <div class="col-12 mx-auto">
+                    <div class="owl-carousel owl-theme">
+      
+                      <div class="item">
+                        <img src="./../Images/image2-section2.png" class="img-fluid" alt="...">
+                      </div>
+        
+                      <div class="item">
+                        <img src="./../Images/image3-section2.png" class="img-fluid" alt="...">
+                      </div>
+      
+                      <div class="item">
+                        <img src="./../Images/image4-section2.png" class="img-fluid" alt="...">
+                      </div>
+        
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row row-height"></div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <section id="clients" class="bg-white">
+              <div class="container">
+
+                <div class="row row-height"></div>
+                <div class="row">
+                  <div class="col-12 text-center font-s1-4 font-Roboto-Bold text-blue">
+                    PARTNERS
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-12 text-center mt-3 font-s4 font-Raleway-Bold">
+                    SELECTED CLIENTS
+                  </div>
+              
+                </div>
+
+                <div class="row d-flex justify-content-center mt-5">
+                  <div class="col-xl-3 col-sm-6 col-12 mt-4">
+
+                    <div class="bg-light p-5">
+                      <a href="#">
+                        <img class="color-svg-blue mx-auto d-block" src="./../Images/usps.svg" width="90px" height="80px" alt="usps">
+                      </a>
+                    </div>
+                    
+                  </div>
+
+                  <div class="col-xl-3 col-sm-6 col-12 mt-4"> 
+
+                    <div class="bg-light p-5">
+                      <a href="#">
+                        <img class="color-svg-blue mx-auto d-block" src="./../Images/staylinked.svg" width="69px" height="80px" alt="staylinked">
+                      </a>
+                    </div>
+                    
+                  </div>
+
+                  <div class="col-xl-3 col-sm-6 col-12 mt-4">
+
+                    <div class="bg-light p-5">
+                      <a href="#">
+                        <img class="color-svg-blue mx-auto d-block" src="./../Images/schlix.svg" width="70px" height="80px" alt="schlix">
+                      </a>
+                    </div>
+                    
+                  </div>
+
+                  <div class="col-xl-3 col-sm-6 col-12 mt-4">
+
+                    <div class="bg-light p-5">
+                      <a href="#">
+                        <img class="color-svg-blue mx-auto d-block" src="./../Images/pied-piper-pp.svg" width="70px" height="80px" alt="pied-piper-pp">
+                      </a>
+                    </div>
+                    
+                  </div>
+                </div>
+
+                <div class="row row-height"></div>
+
+              </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- Planning -->
+            <section id="planning" class="bg-blacky">
+              <div class="container">
+                <div class="row row-height2 d-none d-xl-block"></div>
+                <div class="row">
+                    <div class="col-xl-6 col-12 mt-5">
+                        <div class="ms-md-5 mt-5">
+                            <h6 class="text-warning font-s1-4 font-Roboto-Bold">PLANNING</h6>
+                            <h2 class="mt-5 text-white font-s4 font-Raleway-Bold">MINO OFFICE BUILDING</h2>
+                            <p class="mt-5 text-white font-s1-7">Sed consequat et velit ut pharetra. Phasellus varius ullamcorper ex, quis lacinia nulla elementum eget. Mauris gravida ornare orci. Maecenas at blandit leo, consequat posuere est. Donec vehicula aliquet magna, sed dignissim felis vehicula quis. Aliquam nulla est, laoreet ac egestas sed, semper eu dolor.</p>
+                            <a href="https://demosites.io/architecture-gb/project-details/">
+                              <button type="button" class="btn btn-primary btn-lg mt-5 px-5 py-4 btn1 font-s1-7 font-Roboto-Bold rounded-0">
+                                <div class="px-3 py-3">VIEW PROJECT DETAILS</div>
+                              </button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 col-12 mt-5">
+                        <img class="mx-auto d-block img-fluid cssanimation fadeInBottom" src="./../Images/image1-section4.png" alt="Planning">
+                    </div>
+                </div>
+
+                <div class="row row-height2 d-none d-xl-block"></div>
+
+                
+                <div class="row">
+                  <div class="col-12">
+
+                    <div class="mt-5 d-flex justify-content-center">
+                      <a href="#">
+                        <img class="star-color mx-auto d-block" src="./../Images/star-solid.svg" width="20px" height="16px" alt="Star">
+                      </a>
+
+                      <a href="#">
+                        <img class="star-color mx-auto d-block" src="./../Images/star-solid.svg" width="20px" height="16px" alt="Star">
+                      </a>
+
+                      <a href="#">
+                        <img class="star-color mx-auto d-block" src="./../Images/star-solid.svg" width="20px" height="16px" alt="Star">
+                      </a>
+
+                      <a href="#">
+                        <img class="star-color mx-auto d-block" src="./../Images/star-solid.svg" width="20px" height="16px" alt="Star">
+                      </a>
+
+                      <a href="#">
+                        <img class="star-color mx-auto d-block" src="./../Images/star-solid.svg" width="20px" height="16px" alt="Star">
+                      </a>
+                    </div>
+                    
+                  </div>
+                </div>
+
+                
+                <div class="row mt-4">
+                  <div class="col-2"></div>
+                  <div class="col-8 text-center">
+                    <p class="font-s1-7 text-white">Mauris aliquam, nisl ultricies auctor lacinia, magna ex pulvinar erat, a sodales sem leo nec ipsum. Suspendisse et urna vel neque fringilla convallis quis ac massa.</p>
+                  </div>
+                  <div class="col-2"></div>
+                </div>
+
+                
+                <div class="row">
+                  <div class="col-12 mt-2 text-center">
+                    <img class="mx-auto d-block rounded-circle" src="./../Images/mark-riley.PNG" alt="Mark Riley">
+                    <h5 class="font-Roboto-Bold font-s1-6 text-white">MARK RILEY</h5>
+                  </div>
+                </div>
+
+
+                <div class="row">
+                  <div class="col-12 text-center">
+                    <p class="text-white font-s1-5 mt-2">Client</p>
+                  </div>
+                </div>
+
+                <div class="row row-height2"></div>
+
+              </div>
+            </section>
+
+
+            <!-- Construction --> 
+            <section id="construction" class="bg-light">
+
+              <div class="container">
+                <div class="row row-height2 d-none d-xl-block"></div>
+
+                <div class="row">
+                    <div class="col-xl-6 col-12 mt-5 order-xl-2">
+                        <div class="w-100 mt-5 ms-md-5 ms-xl-0 pe-md-5 pe-xl-0">
+                            <h6 class="text-blue font-s1-4 font-Roboto-Bold">PLANNING, CONSTRUCTION</h6>
+                            <h2 class="mt-5 text-body font-s4 font-Raleway-Bold">JVT COWORKING SPACE</h2>
+                            <p class="mt-5 font-s1-7 text-body">Proin vitae suscipit metus. Cras auctor, massa ac convallis congue, orci velit varius tortor, vitae faucibus arcu diam eget dui. Fusce felis mauris, ultrices sit amet accumsan ut, rutrum at sapien. Integer sed nibh tortor. Donec euismod interdum lectus, nec vestibulum justo hendrerit ut.</p>
+                            <a href="https://demosites.io/architecture-gb/project-details/">
+                              <button type="button" class="btn btn-primary btn-lg mt-5 px-5 py-4 btn1 font-s1-7 font-Roboto-Bold rounded-0">
+                                <div class="px-3 py-3">VIEW PROJECT DETAILS</div>
+                              </button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 col-12 order-xl-1 mt-5">
+                        <img class="mx-auto d-block img-fluid cssanimation fadeInBottom" src="./../Images/image1-section5.png" height="511px" width="511px" alt="Construction">
+                    </div>
+                </div>
+
+                <div class="row row-height3"></div>
+
+            </section>
+
+
+
+
+            <!-- Our Team -->
+            <section id="our-team" class="bg-white">
+              <div class="container">
+
+                <div class="row row-height"></div>
+
+                <div class="row">
+                  <div class="col-12 text-center font-s1-4 font-Roboto-Bold text-blue">
+                    ABOUT US
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-12 text-center mt-3 mb-3 text-body font-s4 font-Raleway-Bold">
+                    OUR TEAM
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-xl-4 col-md-6 col-12 mt-4">
+                    <div class="text-center mx-auto cssanimation fadeInBottom">
+                      <button type="button" class="btn" data-bs-toggle="tooltip" data-bs-placement="top" title="PLANNER" data-bs-custom-class="color-tooltip">
+                        <img src="./../Images/image1-section6.png" alt="JOHN JACKOVSCKI">
+                      </button>
+                      
+                      <h3 class="font-Raleway-Bold font-s2-8 text-blue">JOHN JACKOVSCKI</h3>
+                      <h5 class="text-body font-Roboto-Bold font-s1-6">PLANNER</h5>
+
+                      <div class="mt-3">
+                        <a href="https://es-es.facebook.com/">
+                          <img src="./../Images/facebook.svg" class="img-svg" width="27px" height="27px" alt="Facebook">
+                        </a>
+
+                        <a href="https://twitter.com/?lang=es">
+                          <img class="ms-1 img-svg" src="./../Images/twitter.svg" width="27px" height="27px" alt="Twitter">
+                        </a>
+
+                        <a href="https://es.linkedin.com/">
+                          <img class="ms-1 img-svg" src="./../Images/linkedin.svg" width="27px" height="27px" alt="LinkedIn">
+                        </a>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  
+
+                  <div class="col-xl-4 col-md-6 col-12 mt-4">
+                    <div class="text-center mx-auto cssanimation fadeInBottom">
+                      <button type="button" class="btn" data-bs-toggle="tooltip" data-bs-placement="top" title="CLIENT SERVICE" data-bs-custom-class="color-tooltip">
+                        <img src="./../Images/image2-section6.png" alt="PARKER WILLIAMS">
+                      </button>
+                      
+                      <h3 class="font-Raleway-Bold font-s2-8 text-blue">PARKER WILLIAMS</h3>
+                      <h5 class="text-body font-Roboto-Bold font-s1-6">CLIENT SERVICE</h5>
+                      <div class="mt-3">
+                        <a href="https://es-es.facebook.com/">
+                          <img src="./../Images/facebook.svg" class="img-svg" width="27px" height="27px" alt="Facebook">
+                        </a>
+
+                        <a href="https://twitter.com/?lang=es">
+                          <img class="ms-1 img-svg" src="./../Images/twitter.svg" width="27px" height="27px" alt="Twitter">
+                        </a>
+
+                        <a href="https://es.linkedin.com/">
+                          <img class="ms-1 img-svg" src="./../Images/linkedin.svg" width="27px" height="27px" alt="LinkedIn">
+                        </a>
+                      </div>
+                      
+
+                    </div>
+                  </div>
+                  
+                  <div class="col-xl-4 col-12 mt-4">
+                    <div class="text-center mx-auto cssanimation fadeInBottom">
+                      <button type="button" class="btn" data-bs-toggle="tooltip" data-bs-placement="top" title="ARCHITECT" data-bs-custom-class="color-tooltip">
+                        <img src="./../Images/image3-section6.png" alt="JOHN JACKOVSCKI">
+                      </button>
+                      
+                      <h3 class="font-Raleway-Bold font-s2-8 text-blue">JOHN JACKOVSCKI</h3>
+                      <h5 class="text-body font-Roboto-Bold font-s1-6">ARCHITECT</h5>
+
+                      <div class="mt-3">
+                        <a href="https://es-es.facebook.com/">
+                          <img src="./../Images/facebook.svg" class="img-svg" width="27px" height="27px" alt="Facebook">
+                        </a>
+
+                        <a href="https://twitter.com/?lang=es">
+                          <img class="ms-1 img-svg" src="./../Images/twitter.svg" width="27px" height="27px" alt="Twitter">
+                        </a>
+
+                        <a href="https://es.linkedin.com/">
+                          <img class="ms-1 img-svg" src="./../Images/linkedin.svg" width="27px" height="27px" alt="LinkedIn">
+                        </a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row row-height"></div>
+              </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- Contact us -->
+            <section id="contact" class="bg-blacky">
+              <div class="container">
+                <div class="row row-height"></div>
+
+                <div class="row">
+                  <div class="col-6 mt-5 d-none d-md-block">
+                    <div class="ms-3 mt-5">
+                      <h2 class="text-white font-s4 font-Raleway-Bold">CONTACT US</h2>
+                      <h3 class="font-Raleway-Bold font-s2-8 text-white mt-5 pt-2">ARCHITECTURE STUDIO</h3>
+                      <p class="font-s1-7 text-white mt-5 pt-2">Pork belly portland fingerstache pitchfork dreamcatcher, retro lo-fi deep v chillwave fixie kitsch bitters ugh normcore shoreditch. Pitchfork mlkshk retro, swag master cleanse pork belly 3 wolf moon kitsch deep v VHS authentic DIY.</p>
+
+                      <div class="mt-5">
+                        <a href="https://es-es.facebook.com/">
+                          <img src="./../Images/facebook.svg" class="img-svg2 mt-5" width="40px" height="40px" alt="Facebook">
+                        </a>
+
+                        <a href="https://twitter.com/?lang=es">
+                          <img class="ms-2 img-svg2 mt-5" src="./../Images/twitter.svg" width="40px" height="40px" alt="Twitter">
+                        </a>
+
+                        <a href="https://www.google.com/">
+                          <img class="ms-2 img-svg2 mt-5" src="./../Images/google.svg" width="40px" height="40px" alt="Google">
+                        </a>
+
+                        <a href="https://es.linkedin.com/">
+                          <img class="ms-2 img-svg2 mt-5" src="./../Images/linkedin.svg" width="40px" height="40px" alt="LinkedIn">
+                        </a>
+                      </div>
+
+                    </div>
+                    
+                  </div>
+
+
+                  <div class="col-md-6 col-12">
+                    <div class="mx-auto bg-white p-2">
+                      <form class="p-4 needs-validation">
+                        <h2 class="text-body d-md-none "><span class="border-bottom border-dark border-5 font-s4">CONTACT US</span></h2>
+                        <br>
+
+                        <label for="name" class="font-s1-7 text-body form-label">Name<span class="text-danger">*</span></label><br>
+                        <input type="text" placeholder="Your name" class="form-control mt-2 border border-1 border-dark rounded p-2 font-s1-7 text-body w-100" required pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" title="Solo letras">
+
+                        <br>
+
+                        <label for="email" class="font-s1-7 text-body form-label">Email<span class="text-danger">*</span></label><br>
+                        <input type="email" placeholder="Email address" class="form-control mt-2 border border-1 border-dark rounded p-2 font-s1-7 text-body w-100" required pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" title="Ingresa un email válido">
+
+                        <br>
+
+                        <label for="message" class="font-s1-7 text-body form-label">Message<span class="text-danger">*</span></label><br>
+                        <textarea rows="6" placeholder="Your message" class="form-control mt-2 border border-1 border-dark rounded p-2 font-s1-7 text-body w-100" required ></textarea>
+
+                        <br>
+
+                        <button type="submit" class="btn btn-warning btn-lg mb-5 px-4 py-3 btn1 font-s1-7 font-Roboto-Bold rounded-0 form-button">Submit</button>
+
+                      </form>
+                    </div>
+                    
+                  </div>
+                </div>
+
+                <div class="row row-height"></div>
+
+              </div>
+            </section>
+            
+          </div>
+        </main>
+
+
+        <!--Footer-->
+        <footer class="bg-footer">
+
+          <div class="container">
+
+            <div class="row row-height2"></div>
+
+            <div class="row">
+              <div class="col-xl-6 col-12 mt-4">
+                <h4 class="font-s2 font-Raleway-Bold text-white">ARCHITECTURE STUDIO</h4>
+                <br>
+                <p class="font-s1-7 text-white">Art party kickstarter adaptogen, pug lyft direct trade venmo artisan meh vexillologist poke taxidermy offal marfa sartorial. Chartreuse poutine man bun single-origin coffee enamel pin master cleanse, freegan quinoa bieman tin. Hella skateboard yola mustache pitchfork post-ironic.</p>
+              </div>
+
+
+              <div class="col-xl-2 col-12 mt-4">
+                <h4 class="font-s2 font-Raleway-Bold text-white">NAVIGATION</h4>
+
+                <br>
+
+                <a href="#" class="font-s1-7 text-white footer-text2">Homepage</a>
+                <br>
+
+                <a href="#" class="font-s1-7 text-white footer-text2">Our Projects</a>
+                <br>
+
+                <a href="#" class="font-s1-7 text-white footer-text2">Project Details</a>
+                <br>
+
+                <a href="#" class="font-s1-7 text-white footer-text2">News</a>
+                <br>
+
+                <a href="#" class="font-s1-7 text-white footer-text2">Contact</a>
+              </div>
+
+
+              <div class="col-xl-2 col-12 mt-4">
+                <h4 class="font-s2 font-Raleway-Bold text-white">OFFICES</h4>
+
+                <br>
+
+                <a href="#" class="font-s1-7 text-white footer-text2">SAN FRANCISCO</a>
+                <br>
+
+                <a href="#" class="font-s1-7 text-white footer-text2">TOKYO</a>
+                <br>
+
+                <a href="#" class="font-s1-7 text-white footer-text2">LONDON</a>
+                <br>
+
+                <a href="#" class="font-s1-7 text-white footer-text2">SINGAPORE</a>
+              </div>
+
+
+              <div class="col-xl-2 col-12 mt-4">
+                <img src="./../Images/logo.png" width="80px" height="141px" alt="Logo">
+              </div>
+
+            </div>
+
+
+            <div class="row mt-4">
+              <div class="col-6 text-start font-s1-7 text-white">
+                Neve | Powered by <a href="https://wordpress.org/" class="text-white footer-text2">WordPress</a>
+              </div>
+
+              <div class="col-6 text-end">
+                <a href="https://demosites.io/architecture-gb/privacy-and-terms/" class="font-s1-6 footer-privacy">Privacy and Terms</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="https://demosites.io/architecture-gb/contact/" class="font-s1-6 footer-privacy">Contact</a>
+              </div>
+
+              <div class="row row-height4"></div>
+              
+            </div>
+
+          </div>
+      
+        </footer>
+
+
+
+
+
+        <!--Tareas
+          
+          - Cambiar texto por Lorem Ipsum x
+
+          - Hacer las diferentes vistas x
+
+          - Redirigir links correctamente x
+
+          - Poner 5 componentes Boostrap (Hechos: fixed-top, buttons, carousel, tooltips, dropdown, scrollpy) x
+
+          - Internar poner el carousel de tres imagenes x
+
+          - Intentar que las imagenes hagan transciciones de entrada x
+
+          - Cambiar lo que se pueda de css por bootstrap x
+
+          - Utilizar rem o em para fuentes (hacer con media querys)
+
+          - Validar formulario seccion boostrap forms (needs validation, valid feedback)
+
+          - Poner el fondo de la seccion1 igual al original, y hacerla responsive (mandarle el codigo para que lo mire)
+
+          - Arraglar posicionamiento del menu y overflow Cargarme row-height
+
+          - Arreglar mockups en Figma (ultimo)
+
+          - Como entregar figma?? Exportar pdf
+        
+        -->
+      
+    </body>
+</html>
