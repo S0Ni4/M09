@@ -42,7 +42,7 @@
                       <a class="nav-link text1 nav-text-homepage" href="#banner">Homepage</a>
                     </li>
                     <li class="nav-item top-line dropdown">
-                      <a class="nav-link text1 nav-text dropdown-toggle ps-4" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Projects</a>
+                      <a class="nav-link text1 nav-text dropdown-toggle ps-xl-4" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Projects</a>
                       <ul class="dropdown-menu">
                         <li><a class="dropdown-item text1" href="#project">Project</a></li>
                         <li><a class="dropdown-item text1" href="#planning">Planning</a></li>
@@ -50,13 +50,13 @@
                       </ul>                  
                     </li>
                     <li class="nav-item top-line">
-                      <a class="nav-link text1 nav-text ps-4" href="#clients">Clients</a>
+                      <a class="nav-link text1 nav-text ps-xl-4" href="#clients">Clients</a>
                     </li>
                     <li class="nav-item top-line">
-                      <a class="nav-link text1 nav-text ps-4" href="#our-team">Our Team</a>
+                      <a class="nav-link text1 nav-text ps-xl-4" href="#our-team">Our Team</a>
                     </li>
                     <li class="nav-item top-line">
-                      <a class="nav-link text1 nav-text ps-4" href="#contact">Contact</a>
+                      <a class="nav-link text1 nav-text ps-xl-4" href="#contact">Contact</a>
                     </li>
                   </ul>
               </div>
@@ -125,7 +125,7 @@
                       </div>
                   </div>
                   <div class="col-xl-6 col-12 mt-5 d-none d-md-block">
-                      <img class="mx-auto d-block img-fluid cssanimation fadeInBottom"  src="./../Images/image1-section2.png" alt="Projects">
+                      <img class="mx-auto d-none d-xl-block img-fluid cssanimation fadeInBottom"  src="./../Images/image1-section2.png" alt="Projects">
                   </div>
                 </div>
               </div>
@@ -518,7 +518,7 @@
                         <div>
                           <label for="name" class="font-s1-7 text-body form-label">Name<span class="text-danger">*</span></label><br>
                           <input type="text" placeholder="Your name" id="name" class="form-control mt-2 mb-4 border border-1 border-dark rounded p-3 font-s1-7 text-body w-100" required pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$">
-                          <div class="invalid-feedback font-s1-7 mb-2">
+                          <div class="invalid-feedback font-s1-6 mb-2">
                             Introdueix un nom valid
                           </div>
                         </div>
@@ -526,7 +526,7 @@
                         <div>
                           <label for="email" class="font-s1-7 text-body form-label">Email<span class="text-danger">*</span></label><br>
                           <input type="email" placeholder="Email address" id="email" class="form-control mt-2 mb-4 border border-1 border-dark rounded p-3 font-s1-7 text-body w-100" required pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$">
-                          <div class="invalid-feedback font-s1-7 mb-2">
+                          <div class="invalid-feedback font-s1-6 mb-2">
                             Introdueix un email valid
                           </div>
                         </div>
@@ -534,7 +534,7 @@
                         <div>
                           <label for="message" class="font-s1-7 text-body form-label">Message<span class="text-danger">*</span></label><br>
                           <textarea rows="6" placeholder="Your message" id="message" class="form-control mt-2 mb-4 border border-1 border-dark rounded p-3 font-s1-7 text-body w-100" required></textarea>
-                          <div class="invalid-feedback font-s1-7 mb-2">
+                          <div class="invalid-feedback font-s1-6 mb-2">
                             Introdueix un missatge
                           </div>
                         </div>
@@ -635,14 +635,11 @@
         </footer>
 
         <script>
-          // Example starter JavaScript for disabling form submissions if there are invalid fields
           (() => {
             'use strict'
 
-            // Fetch all the forms we want to apply custom Bootstrap validation styles to
             const forms = document.querySelectorAll('.needs-validation')
 
-            // Loop over them and prevent submission
             Array.from(forms).forEach(form => {
               form.addEventListener('submit', event => {
                 if (!form.checkValidity()) {
@@ -668,7 +665,7 @@
 
           - Redirigir links correctamente x
 
-          - Poner 5 componentes Boostrap (Hechos: fixed-top, buttons, carousel, tooltips, dropdown, scrollpy) x
+          - Poner 5 componentes Boostrap (Hechos: fixed-top, buttons, carousel, tooltips, dropdown, scrollpy, form) x
 
           - Internar poner el carousel de tres imagenes x
 
@@ -680,9 +677,22 @@
 
           - Arraglar posicionamiento del menu y overflow Cargarme row-height x
 
-          - Utilizar rem o em para fuentes (hacer con media querys)
+          - Utilizar rem o em para fuentes (hacer con media querys) x
 
-          - Poner el fondo de la seccion1 igual al original (mandarle el codigo para que lo mire)
+
+
+
+
+
+
+
+
+
+
+
+          - Hacer capturas de chrome y firefox de la pàgina completa.
+
+          - Poner el fondo de la seccion1 igual al original (fondo azul) (mandarle el codigo para que lo mire) 
 
           - Arreglar mockups en Figma (ultimo)
 
